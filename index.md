@@ -6,7 +6,7 @@ title: Welcome to the Adobe Analytics Best Practices Repo!
 {% for contributor in site.github.contributors %}
   <li>
     <img src="{{ contributor.avatar_url }}" width="32" height="32" />
-    <a href="{{ contributor.html_url }}">{{ contributor.login }} ({{ contributor.type }}, {{ contributor.contributions }} contributions)</a>
+    <a href="{{ contributor.html_url }}">{{ contributor.login }} ({{ contributor.contributions }} contributions)</a>
   </li>
 {% endfor %}
 </ul>

@@ -3,8 +3,8 @@ layout: default
 title: Welcome to the Adobe Analytics Best Practices Repo!
 ---
 # Welcome to the collection of best practices for Adobe Analytics!
-<p>This is an open project aiming to collect and maintain an ever-growing list of best practices for Adobe Analytics. This project is hosted on [Github]({{site.github.repository_url}}). If you want to [contribute]({{site.github.issues_url}}), have a [question]({{site.github.repository_url}}/discussions), or just want to hang out with the contributers, feel free to join the repo!</p>
-<p>Contributers so far:
+<p>This is an open project aiming to collect and maintain an ever-growing list of best practices for Adobe Analytics. This project is hosted on <a href="{{site.github.repository_url}}">Github</a>. If you want to <a href="{{site.github.issues_url}}">contribute</a>, have a <a href="{{site.github.repository_url}}/discussions">question</a>, or just want to hang out with the contributors, feel free to join the repo!</p>
+<p>Contributors so far:
   <ul>
     {% for contributor in site.github.contributors %}
       <li>

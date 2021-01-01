@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Welcome to the Adobe Analytics Best Practices Repo!
 ---
 # Welcome to the collection of best practices for Adobe Analytics!

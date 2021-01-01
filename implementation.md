@@ -8,7 +8,7 @@ This section contains best practices around how to implement Adobe Analytics, ho
 List of content:
   {% assign mypages = site.html_pages | sort: "title" %}
     {% for pageitem in mypages %}
-* {{ pageitem.url}}|{{ pageitem.title }}|{{ pageitem.path }}|{{ pageitem.dir }}|{{ pageitem.name }}|{{ page.name }}
+* {{ pageitem.url}}|{{ pageitem.title }}|{{ pageitem.path }}|{{ pageitem.dir }}|{{ pageitem.name }}|{{ page.name | remove: ".md"}}|{{ pageitem.dir | remove: "/"}}|
     {% endfor %}
 
 [Back to homepage](./index.html)

@@ -10,10 +10,9 @@ List of content:
   {% assign comparepage = page.name | remove: ".md" %}
     {% for pageitem in mypages %}
     {% assign comparedir = pageitem.dir | remove: "/" %}
+    {% if comparedir == comparepage %}
 * {{ pageitem.url}}|{{ pageitem.title }}|{{ pageitem.path }}|{{ pageitem.dir }}|{{ pageitem.name }}|{{ page.name | remove: ".md"}}|{{ pageitem.dir | remove: "/"}}
-{% if comparedir == comparepage %}
-  Same
-{% endif %}
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
 
 [Back to homepage](./index.html)

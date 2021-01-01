@@ -7,9 +7,11 @@ This section contains best practices around how to implement Adobe Analytics, ho
 
 List of content:
   {% assign mypages = site.html_pages | sort: "title" %}
+  {% assign comparepage = page.name | remove: ".md" %}
     {% for pageitem in mypages %}
+    {% assign comparedir = pageitem.dir | remove: "/" %}
 * {{ pageitem.url}}|{{ pageitem.title }}|{{ pageitem.path }}|{{ pageitem.dir }}|{{ pageitem.name }}|{{ page.name | remove: ".md"}}|{{ pageitem.dir | remove: "/"}}
-{% if pageitem.dir | remove: "/" == page.name | remove: ".md" %}
+{% if comparedir == pageitem %}
   Same
 {% endif %}
     {% endfor %}

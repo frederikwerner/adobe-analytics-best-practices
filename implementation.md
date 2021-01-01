@@ -11,7 +11,7 @@ List of content:
     {% for pageitem in mypages %}
     {% assign comparedir = pageitem.dir | remove: "/" %}
 * {{ pageitem.url}}|{{ pageitem.title }}|{{ pageitem.path }}|{{ pageitem.dir }}|{{ pageitem.name }}|{{ page.name | remove: ".md"}}|{{ pageitem.dir | remove: "/"}}
-{% if comparedir == pageitem %}
+{% if comparedir == comparepage %}
   Same
 {% endif %}
     {% endfor %}

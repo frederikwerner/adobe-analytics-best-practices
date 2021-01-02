@@ -7,4 +7,4 @@ The builtin list of Social Networks in Adobe Analytics is quite extensive alread
 * t.co (Twitter)
 * fb.me (Facebook)
 
-[Back to homepage](./index.html)
+[Back to Homepage]({{site.url}}/index.html)

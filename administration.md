@@ -15,4 +15,4 @@ List of content:
     {% endif %}
   {% endfor %}
 
-[Back to homepage](./index.html)
+[Back to Homepage]({{site.url}}/index.html)

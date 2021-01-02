@@ -8,7 +8,8 @@ When we create new Report Suites in Adobe Analytics, we should remind ourselves 
 * <input type="checkbox"> Set up Evars, Props, and Events according to your Solution Design or check when copying
 * <input type="checkbox"> For web pages, set Internal URL filter to include all website domains
 * <input type="checkbox"> Set calendar to meet your requirements (esp. First day of Week) and timezone
-* <input type="checkbox"> Create Processing or change Processing Rules
+* <input type="checkbox"> Set or check Timestamp settings (especially when copying a Report Suite that has been created in Mobile Services)
+* <input type="checkbox"> Create or change necessary Processing Rules
 * <input type="checkbox"> Create or check Marketing Channel Plugin Settings
 * <input type="checkbox"> Add Report Suites to Advertising Analytics (AMO)
 

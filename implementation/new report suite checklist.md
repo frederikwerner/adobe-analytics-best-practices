@@ -11,4 +11,4 @@ When we create new Report Suites in Adobe Analytics, we should remind ourselves 
 * Create or check Marketing Channel Plugin Settings
 * Add Report Suites to Advertising Analytics (AMO)
 
-[Back to Homepage]({{site.url}}/index.html)
+[Back to Homepage]({{ site.github.url }}/index.html)

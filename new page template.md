@@ -6,4 +6,4 @@ title: Best practices for using Adobe Analytics
 
 Content goes here!
 
-[Back to Homepage]({{site.url}}/index.html)
+[Back to Homepage]({{ site.github.url }}/index.html)

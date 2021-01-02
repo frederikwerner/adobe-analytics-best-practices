@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Best practices for using Adobe Analytics
+title: New Page Template
 ---
 # {{page.title}}
 

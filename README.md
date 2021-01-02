@@ -1,10 +1,13 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: How to contribute a best practice
+---
+# {{page.title}}
+This page is hosted on Github pages, which means you can contribute by heading over to the [Repo]({{site.github.repository_url}}), cloning it, and adding a pull request. Your name will then be mentioned on the frontpage, so it's a great opportunity if you want to get your name out there. But even if you don't want to contribute a best practice, please feel free to join the discussions or request a best practice for a certain topic. Besides that, you can always help making something more understandable, adding screenshots, requesting someone to add their best practice to the repo, or share the repo with your peers. 
 
-You can use the [editor on GitHub](https://github.com/frederikwerner/adobe-analytics-best-practices/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This page can use Markdown for formatting. Here is a quick primer, but we also have the contribution [template]({{ site.github.url }}/new page template}}).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -28,10 +31,4 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/frederikwerner/adobe-analytics-best-practices/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Back to Homepage]({{ site.github.url }}/index.html)

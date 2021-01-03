@@ -14,6 +14,7 @@ Existing topics:
 If you want to contribute (thank you!), please read the [readme](./README) for instructions.
 
 Contributors so far:
-    {% for contributor in site.github.contributors %}
+    {% assign contributors = site.github.contributors | sort: "contributions" %}
+    {% for contributor in contributors %}
 * <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" />{{ contributor.login }} ({{ contributor.contributions }} contributions)</a>
     {% endfor %}
